@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h4 {
+  font-weight: 400;
+}
+p {
+  font-weight: 100;
+}
+h2 {
+  font-weight: 400;
+}
+ul {
+  padding: 0 0 0 1.5rem;
+}
+ol {
+  padding: 0 0 0 1.25rem;
+}
+.logo-holder {
+  padding: 0.75rem;
+  border: none;
+  background-color: #e7e7e7;
+}
+.logo {
+  color: #dc4a20;
+}
+
+.job-preview-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e0e0e0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.75rem;
+  background-color: #fff;
+  border-bottom: 1px solid #808080;
+  max-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.clicked-link {
+  border-radius: 4rem;
+  border-style: inset;
+  padding: 0.75rem 0.75rem;
+  color: #ffffff;
+  background-color: #dc4a20;
+}
+.duet {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.separate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem 0.75rem;
+  box-shadow: inset;
+  border-radius: 4rem;
+  border-style: inset;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+main {
+  display: flex;
+}
+.sub-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 0 0.5rem 2.5rem;
+  gap: 2rem;
+}
+.sub-job {
+  color: #dc4a20;
+  text-decoration: underline #dc4a20;
+  text-underline-offset: 10px;
+}
+.job-preview {
+  flex: 3;
+  padding: 1rem;
+}
+
+.job-header {
+  border-bottom: 2px solid #e0e0e0;
+}
+.job-header,
+.job-location p {
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+.jobTop {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 1rem 2rem 1.25rem;
+}
+.job-location {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0 0 1rem 1.25rem;
+}
+.job-location-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.job-details {
+  display: flex;
+  line-height: 1.5rem;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 0;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skills-required {
+  padding: 1rem 1rem 1rem 1.25rem;
+}
+.skills img {
+  padding: 0.1rem;
+}
+.job-info {
+  padding: 1rem 1rem 1rem 1.25rem;
+}
+
+aside {
+  flex: 1;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2.5rem 1rem 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.delete-job {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  border-color: #dc4a20;
+  border-width: 2px;
+  flex: 1;
+  background-color: #ffffff;
+  color: #dc4a20;
+}
+.edit-job {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 1;
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  border-width: 0;
+  background-color: #dc4a20;
+  color: white;
+}
+.job-stats {
+  padding: 1rem 0;
+}
+.right-slab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  line-height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.jobTop {
+}
+.job-description {
+  padding: 1.5rem 1rem 2rem 1.25rem;
+  line-height: 1.5rem;
+}
+.atlassianHeader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 0 0 1rem 1.5rem;
+  gap: 1rem;
+}
+.atlassianBottomWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 0 1rem;
+}
+.atlassianCompo {
+  padding: 0 1.5rem;
+  line-height: 1.5rem;
+}
+.atlassianP {
+  padding: 1rem 0 0 0;
+}
